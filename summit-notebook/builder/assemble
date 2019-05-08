@@ -15,9 +15,11 @@ if [ -s /tmp/build/requirements.txt ]; then
     cp /tmp/build/requirements.txt /tmp/src/requirements.txt
 fi
 
-# Run the original Python S2I assemble script to install packages.
+yum install -y python3-pip
 
+# Run the original Python S2I assemble script to install packages.
 /usr/libexec/s2i/assemble
+
 
 # Move files from application source directory to master files directory
 # if directory has been specified. This is to facilitate later copying
