@@ -8,7 +8,7 @@ distributed==1.26.0
 mlflow==0.5.0
 tornado<6.0.0
 
-intel-numpy==1.16.3
+intel-numpy==1.15.1
 scipy==1.0.1
 pandas==0.24.0
 statsmodels==0.8.0
