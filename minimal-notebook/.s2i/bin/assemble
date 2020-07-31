@@ -90,10 +90,9 @@ HOME=/opt/app-root
 #DELETE # Install virtualenv for Python 2.7.
 #DELETE 
 #DELETE /opt/app-root/.local/bin/pip install --no-cache-dir --user virtualenv
-#DELETE 
-#DELETE # Create a virtual environment for Python 2.7.
-#DELETE 
-#DELETE /opt/app-root/.local/bin/virtualenv /opt/app-root/supervisor
+
+# Create a virtual environment for Python
+virtualenv /opt/app-root/supervisor
 
 # Install supervisor into the virtual environment.
 
