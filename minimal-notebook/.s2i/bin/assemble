@@ -79,21 +79,21 @@ PATH=/usr/bin:$PATH
 
 HOME=/opt/app-root
 
-# Install pip for Python 2.7.
-
-curl -s -o /tmp/get-pip.py https://bootstrap.pypa.io/get-pip.py
-
-/usr/bin/python /tmp/get-pip.py --user
-
-rm -f /tmp/get-pip.py
-
-# Install virtualenv for Python 2.7.
-
-/opt/app-root/.local/bin/pip install --no-cache-dir --user virtualenv
-
-# Create a virtual environment for Python 2.7.
-
-/opt/app-root/.local/bin/virtualenv /opt/app-root/supervisor
+#DELETE # Install pip for Python 2.7.
+#DELETE 
+#DELETE curl -s -o /tmp/get-pip.py https://bootstrap.pypa.io/get-pip.py
+#DELETE 
+#DELETE /usr/bin/python /tmp/get-pip.py --user
+#DELETE 
+#DELETE rm -f /tmp/get-pip.py
+#DELETE 
+#DELETE # Install virtualenv for Python 2.7.
+#DELETE 
+#DELETE /opt/app-root/.local/bin/pip install --no-cache-dir --user virtualenv
+#DELETE 
+#DELETE # Create a virtual environment for Python 2.7.
+#DELETE 
+#DELETE /opt/app-root/.local/bin/virtualenv /opt/app-root/supervisor
 
 # Install supervisor into the virtual environment.
 
